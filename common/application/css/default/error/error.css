@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	margin: 0px auto;
+	background: #d8d8db;
+	font-family: 'Open Sans';
+}
+
+.faixa{
+	position: relative;
+	text-align: center;
+	margin-top: 37px;
+	width: 100%;
+	height: 100%;
+	background: url(../../../../default/error/faixa.png);
+}
+
+.faixa img{
+	padding-top: 10px;
+}
+
+.erro-negrito{
+	position: relative;
+	width: 100%;
+	font-size: 21px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #5d5c5c;
+}
+
+.posicao{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.mensagem{
+	position: relative;
+	max-width: 360px;
+	color: #656465;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.botoes{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	max-width: 464px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.botoes a{	
+	position: relative;
+	float: left;
+	color: #8e8d8d;
+	width: 100%;
+	max-width: 232px;
+	padding: 13px 0px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(../../../../default/error/botao.png) no-repeat center center;
+}
+
+.smile{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	max-width: 582px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .faixa img{
+		width: 100%;
+	}
+
+	.smile img{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 463px){
+
+	.botoes{
+		max-width: 232px;
+	}
+	
+	.smile img{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    .faixa img{
+		width: 100%;
+	}
+
+	.botoes {
+		max-width: 232px;
+	}
+
+	.smile img{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.smile img{
+		width: 100%;
+	}
+		
+}
